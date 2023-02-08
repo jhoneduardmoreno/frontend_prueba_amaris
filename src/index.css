@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn-login{
+    background-color: #7854F7;
+}
+#btn-login:hover{
+    background-color: black;
+    cursor: pointer;
+}
